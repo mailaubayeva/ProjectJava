@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Contact">
+
+    <AnchorPane prefHeight="57.0" prefWidth="600.0" style="-fx-background-color: #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE;" BorderPane.alignment="CENTER">
+        <children>
+            <MenuButton fx:id="Menubar" alignment="CENTER" layoutX="95.0" layoutY="11.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="164.0" style="-fx-background-color: #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE;" text="Contact us">
+                <items>
+                    <MenuItem fx:id="Home" mnemonicParsing="false" text="Home" />
+                    <MenuItem fx:id="Menu_message" mnemonicParsing="false" text="Message" />
+                    <MenuItem fx:id="Order" mnemonicParsing="false" text="Order" />
+                    <MenuItem fx:id="login" mnemonicParsing="false" text="Log in" />
+                    <MenuItem fx:id="signin" mnemonicParsing="false" text="Sign in" />
+
+                    <MenuItem fx:id="Menu_log_out" mnemonicParsing="false" text="Log Out" />
+                </items>
+                <font>
+                    <Font name="Times New Roman" size="22.0" />
+                </font>
+            </MenuButton>
+            <Label fx:id="field_name" alignment="CENTER" layoutX="389.0" layoutY="19.0" prefHeight="25.0" prefWidth="149.0" text="Our contact" textAlignment="CENTER">
+                <font>
+                    <Font name="Times New Roman" size="22.0" />
+                </font>
+            </Label>
+        </children>
+    </AnchorPane>
+    <Accordion />
+    <Accordion />
+    <Label fx:id="emails_cont" alignment="CENTER" layoutY="72.0" prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE;" text="Media">
+        <font>
+            <Font name="Times New Roman" size="28.0" />
+        </font>
+    </Label>
+    <Label fx:id="email1" alignment="CENTER" layoutX="167.0" layoutY="117.0" prefHeight="45.0" prefWidth="267.0" style="font-color: #ff8400;" text="nazymmk@mail.ru" textFill="#00aeff">
+        <font>
+            <Font name="Times New Roman" size="21.0" />
+        </font>
+    </Label>
+    <Label fx:id="number_cont" alignment="CENTER" layoutY="207.0" prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE;" text="Phone Number:">
+        <font>
+            <Font name="Times New Roman" size="28.0" />
+        </font>
+    </Label>
+    <Label fx:id="number1" layoutX="237.0" layoutY="279.0" prefHeight="45.0" prefWidth="128.0" style="font-color: #ff8400;" text="87071555336" textFill="#00aeff">
+        <font>
+            <Font name="Times New Roman" size="22.0" />
+        </font>
+    </Label>
+    <Label fx:id="address_cont" alignment="CENTER" layoutY="350.0" prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE #7B68EE#7B68EE;" text="Address">
+        <font>
+            <Font name="Times New Roman" size="28.0" />
+        </font>
+    </Label>
+    <Label fx:id="address1" layoutX="191.0" layoutY="395.0" prefHeight="45.0" prefWidth="267.0" style="font-color: #ff8400;" text="Otegen Batyr 8,Almaty 050000">
+        <font>
+            <Font name="Times New Roman" size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="address2" layoutX="179.0" layoutY="440.0" prefHeight="45.0" prefWidth="322.0" style="font-color: #ff8400;" text="Kabanbay Batyr 53, Almaty010000">
+        <font>
+            <Font name="Times New Roman" size="18.0" />
+        </font>
+    </Label>
+   <Label layoutX="252.0" layoutY="162.0" text="\@Market" textFill="#00aeff">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+
+</AnchorPane>
