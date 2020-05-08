@@ -1,0 +1,13 @@
+/*
+-- Query: SELECT * FROM Project.users
+LIMIT 0, 1000
+
+-- Date: 2020-05-08 20:59
+*/
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (1,'asdfg','dfgh','xcvb','xcvbg','asdfgh');
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (2,'naz','asd','sdf','sdf','scdxv');
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (3,'v','v','d','df','df');
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (4,'Naz','qwer','wert','edrt','der');
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (5,'Naz','qwer','wert','edrt','der');
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (6,'Naz','xdfgh','degt','fgt','frt');
+INSERT INTO `` (`idnew_table`,`firstname`,`lastname`,`mail`,`username`,`password`) VALUES (7,'Nazym','Mailaubayeva','nazymmk@mail.ru','Nazka','12345');
